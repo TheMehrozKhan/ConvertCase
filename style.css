@@ -1,0 +1,107 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-image: url("img/Bg.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thefirsth {
+    position: relative;
+    top: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.button-888 {
+    background: #ff8432;
+    border-radius: 999px;
+    box-shadow: #f09f5d 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    padding: 10px 28px;
+    margin-bottom: 25px;
+    /* center form horizontally and vertically */
+    position: relative;
+    top: 55%;
+    left: 12%;
+}
+
+.button-888:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.thetextarea {
+    border: none;
+    border-radius: 14px;
+    resize: vertical;
+    transition: 0.3s;
+    line-height: 20px;
+    box-shadow: rgba(149, 157, 165, 0.185) 0px 8px 24px;
+    /* center form horizontally and vertically */
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    width: 350px;
+    height: 120px;
+}
+
+.thetextarea:hover {
+    box-shadow: rgba(149, 157, 165, 0.075) 0px 8px 24px;
+}
+
+.convert-case-page {
+    /* center form horizontally and vertically */
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    background: white;
+    height: 510px;
+    width: 480px;
+    padding: 35px;
+    align-items: center;
+    border-radius: 23px;
+    box-shadow: rgba(149, 157, 165, 0.082) 0px 8px 24px;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
